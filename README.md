@@ -1,4 +1,4 @@
-## _My Thesis Degree_
+## _My Thesis_
 
 
 To run the code, you need to create a `.env` file where specify:
