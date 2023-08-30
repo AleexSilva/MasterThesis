@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## _My Thesis Degree_
 
 
