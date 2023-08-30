@@ -1,0 +1,21 @@
+Query: VACUNA COVID -is:retweet lang:es place_country:AR
+
+Fecha-Inicio: 2021-01-01T00:00:00Z
+Fecha-Fin: 2021-07-01T00:00:00Z
+
+User_fields:
+  - username
+  - public_metrics
+  - description
+  - location
+
+Tweet_fields:
+  - created_at
+  - geo
+  - public_metrics
+  - text
+  - source
+
+Expansions:
+  - author_id
+  - geo.place_id
