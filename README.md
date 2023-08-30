@@ -16,4 +16,3 @@ To run the code, you need to create a `.env` file where specify:
 BEARER_TOKEN = 'BARRER_TOKEN'
 ```
 For more information, please visit [Twitter](https://developer.twitter.com/en/products/twitter-api/academic-research)
->>>>>>> 32276c7cfcdaf0d9aada2dc7b9c366e24a8b3a4e
