@@ -5,9 +5,6 @@ import yaml #---> Importar parámetros
 from decouple import config #---> Para esconder credenciales
 import pickle as pk # ---> Para guardar los tweets almacenados
 
-#Credenciales Ocultas
-BEARER_TOKEN = config('BEARER_TOKEN')
-
 
 def leer_yaml(path):
     with open(path) as read_file:
@@ -20,8 +17,9 @@ YAML = leer_yaml('../../utility/parametros.yaml')
 q= YAML['Query']
 start=YAML['Fecha-Inicio']
 end= YAML['Fecha-Fin']
-print(end)
 
+#Credenciales Ocultas
+BEARER_TOKEN = config('BEARER_TOKEN')
 
 # Conexión a la API de Twitter
 client = tweepy.Client(BEARER_TOKEN,wait_on_rate_limit=True)
