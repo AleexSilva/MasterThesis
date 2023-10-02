@@ -96,10 +96,10 @@ class PlotData():
 
 
 if __name__ == '__main__':
-    test1 = PlotData()
-    df=test1.importar_manipular_data()
-    test1.word_cloud(df['Texto'])
-    test1.countplot(data=df,x='Mes')
-    test1.countplot_hue(df,x='Mes')
-    test1.lineplot(df,y='Retweets')
-    test1.lineplot_hue(df,y='Retweets')
+    plot = PlotData()
+    df=plot.importar_manipular_data()
+    plot.word_cloud(df['Texto'])
+    plot.countplot(data=df,x='Mes')
+    plot.countplot_hue(df,x='Mes')
+    plot.lineplot(df,y='Retweets')
+    plot.lineplot_hue(df,y='Retweets')
